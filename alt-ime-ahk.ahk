@@ -129,9 +129,6 @@ RAlt up::
 
 ; 右 Win で IME を ON
 RWin up::
-    if (A_PriorHotkey == "*~RWin")
-    {
-        IME_SET(1)
-    }
+    IME_SET(1)
     Return
 
